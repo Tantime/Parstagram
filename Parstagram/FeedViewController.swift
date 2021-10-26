@@ -72,7 +72,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         comment["author"] = PFUser.current()!
 
         selectedPost.add(comment, forKey: "comments")
-        selectedPost.saveInBackground { success, error in
+        selectedPost.saveInBackground {(success, error) in
             if success {
                 print("Comment saved")
             } else {
@@ -91,7 +91,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         let post = posts[section]
-        let comments = (post["commets"] as? [PFObject]) ?? []
+        let comments = (post["comments"] as? [PFObject]) ?? []
         return comments.count + 2
     }
     
