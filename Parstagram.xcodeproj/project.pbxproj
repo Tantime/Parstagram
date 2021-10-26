@@ -15,6 +15,7 @@
 		0D1ECAEF271E8ADB00F13641 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ECAEE271E8ADB00F13641 /* ParstagramTests.swift */; };
 		0D1ECAF9271E8ADB00F13641 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ECAF8271E8ADB00F13641 /* ParstagramUITests.swift */; };
 		0D1ECAFB271E8ADB00F13641 /* ParstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1ECAFA271E8ADB00F13641 /* ParstagramUITestsLaunchTests.swift */; };
+		0D32A34E2727C0A200C0BE41 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D32A34D2727C0A200C0BE41 /* CommentCell.swift */; };
 		0D913B9F271E964B001332DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D913B9E271E964B001332DA /* LoginViewController.swift */; };
 		0D913BA1271E9658001332DA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D913BA0271E9658001332DA /* FeedViewController.swift */; };
 		0D913BA32720B48B001332DA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D913BA22720B48B001332DA /* CameraViewController.swift */; };
@@ -54,6 +55,7 @@
 		0D1ECAF4271E8ADB00F13641 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D1ECAF8271E8ADB00F13641 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		0D1ECAFA271E8ADB00F13641 /* ParstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D32A34D2727C0A200C0BE41 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		0D913B9E271E964B001332DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0D913BA0271E9658001332DA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0D913BA22720B48B001332DA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				0D913BA0271E9658001332DA /* FeedViewController.swift */,
 				0D913BA22720B48B001332DA /* CameraViewController.swift */,
 				0DA6C4842720F0AF009A0428 /* PostCell.swift */,
+				0D32A34D2727C0A200C0BE41 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				0D913BA1271E9658001332DA /* FeedViewController.swift in Sources */,
 				0D1ECADA271E8AD800F13641 /* SceneDelegate.swift in Sources */,
 				0DA6C4852720F0AF009A0428 /* PostCell.swift in Sources */,
+				0D32A34E2727C0A200C0BE41 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
